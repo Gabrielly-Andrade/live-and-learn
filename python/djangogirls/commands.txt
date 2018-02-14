@@ -1,0 +1,34 @@
+### Configuração ###
+
+python3 -m venv myvenv     - Criando uma virtualenv (ambiente virtual) para isolar a configuração python/Django
+myvenv\Scripts\activate    - Iniciando o virtualenv (Windows)
+source myvenv/bin/activate - Iniciando o virtualenv (Linux/Mac)
+pip install --upgrade pip  - Atualizando o pip
+pip install django~=1.9.0  - Instalando o Django
+
+
+### Criando um projeto ###
+
+django-admin.py startproject mysite .   - Criando a estrutura do projeto (Windows)
+django-admin startproject mysite .      - Criando a estrutura do projeto (Linux/Mac)
+python manage.py migrate                - Instalando um banco de dados
+python manage.py runserver              - Iniciando o servidor web
+
+### Modelos do Django ###
+
+python manage.py startapp blog       - Criando uma aplicação
+python manage.py makemigrations blog - Criando um arquivo de migração
+python manage.py migrate blog        - Aplicando no banco de dados
+
+### Administração ###
+
+python manage.py createsuperuser - Criando um usuário administrador
+
+### Git - Controle de Versão ###
+
+git init                                         - Criando um repositório
+git config --global user.name "Your Name"        - Configurando um nome para o repositório
+git config --global user.email you@example.com   - Configurando um e-mail para o repositório
+
+
+
