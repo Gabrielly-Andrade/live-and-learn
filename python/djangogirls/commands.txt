@@ -1,6 +1,6 @@
-### Configuração ###
+ï»¿### Configuraï¿½ï¿½o ###
 
-python3 -m venv myvenv     - Criando uma virtualenv (ambiente virtual) para isolar a configuração python/Django
+python3 -m venv myvenv     - Criando uma virtualenv (ambiente virtual) para isolar a configuraï¿½ï¿½o python/Django
 myvenv\Scripts\activate    - Iniciando o virtualenv (Windows)
 source myvenv/bin/activate - Iniciando o virtualenv (Linux/Mac)
 pip install --upgrade pip  - Atualizando o pip
@@ -16,19 +16,30 @@ python manage.py runserver              - Iniciando o servidor web
 
 ### Modelos do Django ###
 
-python manage.py startapp blog       - Criando uma aplicação
-python manage.py makemigrations blog - Criando um arquivo de migração
+python manage.py startapp blog       - Criando uma aplicaï¿½ï¿½o
+python manage.py makemigrations blog - Criando um arquivo de migraï¿½ï¿½o
 python manage.py migrate blog        - Aplicando no banco de dados
 
-### Administração ###
+### Administraï¿½ï¿½o ###
 
-python manage.py createsuperuser - Criando um usuário administrador
+python manage.py createsuperuser - Criando um usuï¿½rio administrador
 
-### Git - Controle de Versão ###
+### Git - Controle de Versï¿½o ###
 
-git init                                         - Criando um repositório
-git config --global user.name "Your Name"        - Configurando um nome para o repositório
-git config --global user.email you@example.com   - Configurando um e-mail para o repositório
+git init                                         - Criando um repositï¿½rio
+git config --global user.name "Your Name"        - Configurando um nome para o repositï¿½rio
+git config --global user.email you@example.com   - Configurando um e-mail para o repositï¿½rio
 
+# Configuraï¿½ï¿½o - github
 
+git remote add origin https://github.com/<your-github-username>/my-first-blog.git    - Adicionando configuraï¿½ï¿½o inicial
+git push -u origin master                                                            - "Empurrando" o cï¿½digo para o repositï¿½rio remoto
+
+### ImplementaÃ§Ã£o ###
+
+python manage.py collectstatic - Reunindo todos os arquivos estÃ¡ticos no servidor
+
+### Python ###
+
+Linhas entre aspas triplas (''' ou """) - Docstrings (fazer comentÃ¡rio sobre a implementaÃ§Ã£o)
 
