@@ -1,0 +1,7 @@
+### Visão Geral ###
+
+Padrões de Projeto                               - Soluções elegantes para problemas que se repetem
+Padrão Strategy                                  - É aplicado ao ter algoritmos similares. Engloba o conceito de encapsulamento. 
+						   O código da classe cliente fica desaclopado das implementações dos algoritmos
+Duck Typing                                      - Não importa qual é o objeto, só importa se conseguimos fazer o que foi pedido
+Easier to ask forgiveness than permission (EAFP) - Faça, caso dê algum erro lide com isso (try/except)
